@@ -108,7 +108,7 @@ Podemos observar al `Douglas DC-3` como el avión con mayor cantidad de accident
 ![Logo](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/src/aeronave.PNG?raw=true)
 
 
-### Aeronave
+### Tendencia
 
 La última página del dashboard se denomina **`Tendencia`** y se encarga de analizar los accidentes y la cantidad de pasajeros con sus respectivas tendencias a lo largo del tiempo.
 Podemos destacar que no siempre existe una relación directa entre la tendencia de accidentes por período y la cantidad de pasajeros (véase en tendencia mensual).
@@ -116,3 +116,10 @@ Por otro lado se pueden analizar la cantidad de accidentes a lo largo de los añ
 Por último analizamos la variación interanual de accidentes y podemos filtrar por países como Estados Unidos para observar cómo se ha comportado en los últimos años pese a tener la mayor cantidad de accidentes y pasajeros históricos.
 
 ![Logo](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/src/tendencia.PNG?raw=true)
+
+## Conclusiones
+
+- La Tasa anual de mortalidad, tal como puede visualizarse en la página 'País', oscila entre el 50% y el 100% para la mayoría de los años. La misma si bien presenta tendencia en algunos períodos, no podemos decir que tenga una marcada tendencia a la baja. Es importante en su lugar, estar por debajo del target de tasa conforme al KPI indicado por lo que se sugiere revisarlo año a año;
+- La tasa anual de supervivencia, tal como puede visualizarse en la página 'Operador', en contraposición a la tasa anual de mortalidad, oscila entre el 0% y y el 50% para la mayoría de los años. Es deseable para la mayoría de las aerolíneas poder mantenerse por encima del 50%. Se alienta a trabajar con las aerolíneas que no alcanzan el 50% y revisar sus protocolos de seguridad;
+- La tendencia anual de accidentes a lo largo de la historia comenzó una gran tendencia alcista desde los días de los primeros vuelos hasta 1945. La tendencia pudo consolidarse entre 1946 y 2004 para finalmente romper la zona de acumulación en 2005 (año en que confirmamos la tendencia a la baja comenzada en 1989). La media móvil de 10 años nos ayuda a visualizar años de baja siniestralidad, por lo que se alienta a mantenerse por debajo de la misma y activar alertas en el momento en que la tendencia anual se aproxime a la misma (situación que ha acontecido numerosas veces a lo largo de la historia). Es positivo a su vez, poder afirmar que la aviación ha alcanzado un nivel de seguridad que permite estar en los niveles de accidentes más bajos de la historia, considerando la cantidad de vuelos, personas transportadas y avances tecnológicos en contraposición a los primeros días;
+- Por último es destacable la tendencia anual de accidentes para los países como Estados Unidos y Rusia, los cuales pese a tener la mayor cantidad de accidentes históricos, mantienen marcadas tendencias a la baja en los últimos años, en concordancia con la tendencia mundial. 
