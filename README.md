@@ -77,6 +77,8 @@ Se pueden visualizar las transformaciones y los análisis realizados en el sigui
 
 El [dashboard](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/dashboard_air_accidents.pbix) consta de 1 portada y 4 páginas navegables a través de una botonera de navegación.
 
+Se destaca que dentro de cada página del mismo, en la esquina superior derecha, se puede encontrar el botón de información que redirecciona a este repositorio de Github.
+
 ![Logo](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/src/portada.PNG?raw=true)
 
 ### País
@@ -99,7 +101,7 @@ Por último podemos visualizar un KPI para la tasa de supervivencia estableciend
 
 ### Aeronave
 
-En la tercer página denominada **`Aeronave`**, se puede observar la cantidad de accidentes analizados pudiendo filtrar a su vez por tipo de aeronave, marca de aeronave, operador y año. Tenemos información acerca de la distribución de las aeronaves según su categoría, medidores de tasa de mortalidad y tasa de supervivencia y un gráfico de barras con las principales marcas y sus aeronaves. 
+En la tercer página denominada **`Aeronave`**, se puede observar la cantidad de aeronaves y marcas involucradas en el dataset pudiendo filtrar especificamente por tipo de aeronave, marca de aeronave, operador y año. Tenemos medidores de tasa de mortalidad y tasa de supervivencia, un gráfico de barras con las principales marcas y sus aeronaves y un gráfico de composición de las aeronaves según sea la categoría (vuelo militar o vuelo no militar)
 Podemos observar al `Douglas DC-3` como el avión con mayor cantidad de accidentes a lo largo de la historia. El mismo perteneció a la compañía Douglas que con el tiempo mutó a MCDonell Douglas para finalmente convertirse en Boeing.
 
 
@@ -110,7 +112,7 @@ Podemos observar al `Douglas DC-3` como el avión con mayor cantidad de accident
 
 La última página del dashboard se denomina **`Tendencia`** y se encarga de analizar los accidentes y la cantidad de pasajeros con sus respectivas tendencias a lo largo del tiempo.
 Podemos destacar que no siempre existe una relación directa entre la tendencia de accidentes por período y la cantidad de pasajeros (véase en tendencia mensual).
-Por otro lado se pueden analizar la cantidad de accidentes a lo largo de los años con la media móvil de 10 períodos, lo cual nos permite concluír que los años donde la cantidad de accidentes se ha encontrado por debajo de la media móvil, han resultado años con baja siniestralidad, mientras que aquellos años donde la cantidad ha estado por encima han sido años con una gran cantidad de accidentes (años entre 1945 y 1994). Dicha media móvil puede ser ajustada en función de las circunstancias del futuro. Tal es así que podemos inferir que a nivel mundial estamos en una tendencia a la baja en cantidad de accidentes desde 1994 y por debajo del promedio móvil de 10 años en 2021 por lo que resulta interesante mantenerse sobre dicho patrón.
+Por otro lado se pueden analizar la cantidad de accidentes a lo largo de los años con la media móvil de 10 períodos, lo cual nos permite concluír que los años donde la cantidad de accidentes se ha encontrado por debajo de la media móvil, han resultado años con baja siniestralidad, mientras que aquellos años donde la cantidad ha estado por encima han sido años con una gran cantidad de accidentes (años entre 1946 y 2004). Dicha media móvil puede ser ajustada en función de las circunstancias del futuro. Tal es así que podemos inferir que a nivel mundial estamos en una tendencia a la baja en cantidad de accidentes desde 1989 (año en que comienza a descender la cantidad de accidentes) y por debajo del promedio móvil de 10 años en los años siguientes por lo que resulta interesante mantenerse por debajo de dicho patrón para los próximos años.
 Por último analizamos la variación interanual de accidentes y podemos filtrar por países como Estados Unidos para observar cómo se ha comportado en los últimos años pese a tener la mayor cantidad de accidentes y pasajeros históricos.
 
 ![Logo](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/src/tendencia.PNG?raw=true)
